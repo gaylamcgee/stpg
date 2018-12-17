@@ -1,0 +1,59 @@
+<html>
+	<head>
+	<title>new tab</title>
+	<link rel='stylesheet' href='src/index.css' />
+	<script src='src/js/search.js'></script>
+	<script type="text/javascript" src='src/js/jquery-2.2.4.min.js'></script>
+	</head>
+	<body>
+		<div id='main'>
+			<ul>daily
+				<br>
+				<li>&lfloor;</li>
+				<li><a href='http://youtube.com'>youtube</a></li>
+				<li><a href='http://reddit.com/r/paydaytheheist'>pdth</a></li>
+				<li><a href='http://mail.google.com'>gmail</a></li>
+				<li><a href='http://forums.lastbullet.net'>lb</a></li>
+				<li><a href='http://forums.blackmesasource.com'>bmcf</a></li>
+				<li><a href='http://github.com'>github</a></li>
+			</ul>
+			<ul>4chan
+				<br>
+				<li>&lfloor;</li>
+				<li><a href='http://boards.4chan.org/wg/catalog'>/wg/</a></li>
+				<li><a href='http://boards.4chan.org/w/catalog'>/w/</a></li>
+				<li><a href='http://boards.4chan.org/vg/catalog'>/vg/</a></li>
+				<li><a href='http://boards.4chan.org/e/catalog'>/e/</a></li>
+				<li><a href='http://boards.4chan.org/g/catalog'>/g/</a></li>
+			</ul>
+			<ul>school
+				<br>
+				<li>&lfloor;</li>
+				<li><a href='http://oclearningteam.net'>oclt</a></li>
+				<li><a href='http://rossmoyneshs.wa.edu.au/'>work stuff</a></li>
+			</ul>
+			<ul>every other day
+				<br>
+				<li>&lfloor;</li>
+				<li><a href='http://kamikal.github.io'>kamikal</a></li>
+				<li><a href='http://facebook.com'>facebook</a></li>
+				<li><a href='http://tumblr.com'>tumblr</a></li>
+				<li><a href='http://reddit.com/r/askreddit'>ar</a></li>
+			</ul>
+		</div>
+
+		<div id='img'>
+			<script type="text/javascript">
+                $(document).ready(function() {
+  var bgArray = ['bg.jpg', 'bg6.png', 'bg10.png'];
+  var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
+  var path = 'src/images/';
+  var imageUrl = path + bg;
+  $('body').css('background-image', 'url(' + imageUrl +')');
+});
+               </script>
+		</div>
+
+		<input id='search' placeholder='if you&rsquo;re here, you know what to do~' autofocus='yes'></input>
+	</body>
+</html>

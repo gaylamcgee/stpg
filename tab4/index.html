@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>new tab</title>
+        <link rel='stylesheet' href='index.css' />
+    </head>
+    <body>
+        <div class='main'>
+            <div id='banner'>
+            <script type="text/javascript">
+                var imgCount = 7;
+                    var dir = 'resources/';
+                    var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
+                    var images = new Array
+                        images[1] = "bg1.png",
+                        images[2] = "bg2.jpg",
+                        images[3] = "bg3.png",
+                        images[4] = "bg4.png",
+                        images[5] = "bg5.png",
+                        images[6] = "bg7.png",
+                        images[7] = "bg8.png",
+                    document.getElementById("banner").style.backgroundImage = "url(" + dir + images[randomCount] + ")"; 
+               </script>
+               </div>
+            <div class='search'>
+                <form method="get" action="https://www.google.com/search">
+                <input type="text" placeholder="Google Search" name="q" size="31" value="" autocomplete='false' autofocus='yes' class='searchbar'></form>
+            </div>
+
+            <div class='links'>
+                <ul>
+                    <li><a href='#'>link</a></li> || 
+                    <li><a href='#'>link</a></li> || 
+                    <li><a href='#'>link</a></li> || 
+                    <li><a href='#'>link</a></li> || 
+                    <li><a href='#'>link</a></li> ||
+                    <li><a href='#'>link</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

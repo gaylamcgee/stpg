@@ -1,0 +1,108 @@
+<html>
+	<head>
+
+		<link rel='stylesheet' href='src/index.css' />
+		<script src='src/search.js'></script>
+		<script src='src/jquery.js'></script>
+		<title>tab 13</title>
+
+		<script>
+			$(document).ready(function(){
+				$('#showboxone').click(function(){
+					$('#box').show();
+					$('#boxtwo, #boxthree, #boxfour').hide();
+				});
+				$('#showboxtwo').click(function(){
+					$('#boxtwo').show();
+					$('#box, #boxthree, #boxfour').hide();
+				});
+				$('#showboxthree').click(function(){
+					$('#boxthree').show();
+					$('#boxtwo, #box, #boxfour').hide();
+				});
+				$('#showboxfour').click(function(){
+					$('#boxfour').show();
+					$('#boxtwo, #boxthree, #box').hide();
+				});
+			});
+		</script>
+
+	</head>
+
+	<body>
+
+		<div id='main'>
+
+			<div id='buttondiv'>
+			<button id='showboxone'>daily</button>
+			<button id='showboxtwo'>4chan</button>
+			<button id='showboxthree'>music</button>
+			<button id='showboxfour'>other</button>
+			<input id='search' autocomplete='no' autofocus='yes' placeholder='Search'>
+			</div>
+
+			<div id='box'>
+				<ul>daily
+					<br>
+					<li>&gt;</li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+				</ul>
+
+				<p id='quo'>quote can go here
+				<br>if there is two lines use &lt;br&gt;</p>
+			</div>
+			<div id='boxtwo'>
+				<ul>4chan
+					<br>
+					<li>&gt;</li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+				</ul>
+
+				<p id='quo'>quote can go here
+				<br>if there is two lines use &lt;br&gt;</p>
+			</div>
+			<div id='boxthree'>
+				<ul>music
+					<br>
+					<li>&gt;</li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<br>
+					<li>&gt;</li>
+					<li><a href='#'>link</a></li>
+				</ul>
+
+				<p id='quo'>quote can go here
+				<br>if there is two lines use &lt;br&gt;</p>
+			</div>
+			<div id='boxfour'>
+				<ul>other
+					<br>
+					<li>&gt;</li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+					<li><a href='#'>link</a></li>
+				</ul>
+
+				<p id='quo'>quote can go here
+				<br>if there is two lines use &lt;br&gt;</p>
+			</div>
+			<div id='boxfive'></div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'roboto';
+	src: url('roboto.ttf');
+}
+
+* {
+	outline: none;
+}
+
+html {
+	background: url('ilya4.png') no-repeat;
+	background-size: 112%;
+	background-position: -100 0;
+	font-family: 'roboto';
+	font-size: 24px;
+}
+
+#main {
+	width: 650px;
+	height: 270px;
+	background: none;
+
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	right: 15%;
+}
+
+ul {
+	list-style-type: none;
+
+	padding-left: 12;
+	padding-right: 12;
+	margin-top: 12;
+
+	margin-bottom: 10;
+	color: #ffcc99;
+}
+
+li {
+	display: inline;
+	position: relative;
+	margin-left: 0;
+}
+
+a {
+	color: #585858;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+a:hover {
+	color: #FA5858;
+}
+
+#search {
+	height: 38px;
+	width: 624px;
+	background: #ffcc99;
+
+	position: absolute;
+	margin: auto;
+	top: 12;
+	left: 0; right: 0;
+	border: 0;
+	color: rgba(239, 251, 251, 1);
+	font-size: 22px;
+	font-family: 'roboto';
+
+}
+
+#linkcontainer {
+	height: 216px;
+	width: 650px;
+
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	background: none;
+}

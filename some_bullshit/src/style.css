@@ -1,0 +1,129 @@
+@font-face {
+	font-family: 'monte';
+	src: url('montecarlo.ttf');
+}
+
+html {
+	background: url('1455622911288.jpg') no-repeat;
+	font-family: 'monte';
+	color: #FBF8EF;
+}
+
+#spine {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	width: 200; height: 600;
+	background: #1C1C1C;
+	box-shadow: 5px 5px 5px #170f0d;
+}
+
+#parent {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	width: 600; height: 600;
+	background: ;
+}
+
+#one {
+	top: 200;
+}
+
+#two {
+	top: 300;
+}
+
+#three {
+	top: 400;
+}
+
+#four {
+	top: 500;
+}
+
+.link {
+	width: 280; height: 50;
+	transition: 0.5s ease;
+	position: absolute;
+	margin: auto;
+	left: 0; right: 0;
+	background: #223945;
+	opacity: 0.4;
+	z-index: 1;
+}
+.link:hover {
+	width: 600;
+	opacity: 0.8;
+}
+
+.link a {
+	display: none;
+	padding: 12px;
+	transition: none;
+	font-size: 16px;
+	color: #FBF8EF;
+	text-decoration: none;
+}
+
+.link:hover a {
+	display: inline-block;
+}
+
+.left{
+    position: absolute;
+    left: 20px;
+    top: 8px;
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+}
+
+.title {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	text-align: center;
+	font-size: 16;
+	background: #223945;
+	opacity: 1;
+	height: 50; width: 120;
+	z-index: 2;
+}
+
+#searchcontainer {
+	position: absolute;
+	margin: auto;
+	top: 100;
+	left: 0; right: 0;
+	width: 400; height: 50;
+	background: #223945;
+}
+
+#search {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	width: 300; height: 30;
+	background: #574343;
+	border: 0;
+	box-shadow: 3px 3px 3px #170f0d;
+	font-family: 'monte'; font-size: 16;
+	text-align: center;
+	color: #FBF8EF;
+}
+
+.name {
+	padding-top: 3;
+}
+
+#welcome {
+	text-align: center;
+}

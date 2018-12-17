@@ -1,0 +1,68 @@
+@font-face {
+    font-family:'haxrcorp';
+    src: url('resources/haxrcorpttf.ttf');
+}
+
+html {
+	background: url('resources/bg.png') repeat;
+	color: rgba(127,127,127,0.5);
+}
+
+.main {
+	position: absolute;
+	height: 235px; width: 528px;
+	top: 0px;
+	bottom:170px;
+    left: 0px;
+    right: 0px;
+	margin: auto;
+	border: 0;
+}
+
+#banner {
+	position: absolute;
+	height: 297px; width: 528px;
+	background-size: 100%;
+}
+
+.search {
+	position: absolute;
+	left: 0; top: 305;
+}
+
+.searchbar {
+	font-family: 'haxrcorp'; font-size: 16px;
+	width: 528px; height: 22px;
+	border: none;
+	color: rgba(0,0,0,0.5);
+}
+
+.links {
+	font-family: 'haxrcorp'; font-size: 16px;
+	position: absolute;
+	margin: auto;
+	width: 528px;
+	text-align: center;
+	top: 335;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding-left: 6px; padding-right: 6px;
+}
+
+
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.5);
+	transition: .3s;
+}
+
+a:hover {
+	color: rgba(255,255,255,0.9);
+}

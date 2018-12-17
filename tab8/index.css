@@ -1,0 +1,162 @@
+@font-face {
+	font-family: 'haxr';
+	src: url('resources/haxrcorpttf.ttf');
+}
+
+html {
+	background-color: #151515;
+	/**/ background: url('resources/yuno.png'); /**/
+	/*  background: url('muffet.gif') fixed right 0 bottom no-repeat #000; /**/
+	color: #FFF;
+	background-size: 100%;
+}
+
+body {
+	font-family: 'haxr';
+	font-size: 16px;
+}
+
+.general {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 70px;
+	border-left: solid #A9E2F3 10px;
+	transition: .2s;
+}
+
+	.general:hover {
+		border-left: solid #A9E2F3 20px;
+}
+
+.chan {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 70px;
+	border-left: solid #A9F5A9 10px;
+	transition: .2s;
+}
+
+	.chan:hover {
+		border-left: solid #A9F5A9 20px;
+}
+
+.social {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 70px;
+	border-left: solid #F5D0A9 10px;
+	transition: .2s;
+}
+
+	.social:hover {
+		border-left: solid #F5D0A9 20px;
+}
+
+.ch {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 70px;
+	border-left: solid #D8CEF6 10px;
+	transition: .2s;
+}
+
+	.ch:hover {
+		border-left: solid #D8CEF6 20px;
+}
+
+.title {
+	color: #FFF;
+	text-align: center;
+	padding-top: 22px;
+	margin: auto;
+	width: 90px;
+}
+
+.sub {
+	padding-left: 12px;
+	padding-top: 12px;
+	color: #848484;
+}
+
+a {
+	padding-left: 16px;
+	text-decoration: none;
+	color: #F8E0F7;
+	transition: .2s;
+	outline: 0;
+}
+
+.alink {
+	color: #000;
+}
+
+	a:hover {
+		color: #848484;
+}
+
+.google {
+	width: 410px;
+	border: 0px; border-left: solid #F5F6CE 10px;
+	margin: 0 auto;
+	display: block;
+	height: 35px;
+	font-family: 'haxr'; font-size: 16px;
+	padding-left: 14px;
+	transition: .2s;
+}
+
+	.google:hover,.google:focus {
+		border-left: solid #F5F6CE 20px;
+}
+
+.osu {
+	width: 410px;
+	border: 0px; border-left: solid #FFD6F3 10px;
+	margin: 0 auto;
+	display: block;
+	height: 35px;
+	font-family: 'haxr'; font-size: 16px;
+	padding-left: 14px;
+	transition: .2s;
+}
+
+	.osu:hover,.osu:focus {
+		border-left: solid #FFD6F3 20px;
+		
+}
+
+.mtgprice {
+	width: 410px;
+	border: 0px; border-left: solid #F6CECE 10px;
+	margin: 0 auto;
+	display: block;
+	height: 35px;
+	font-family: 'haxr'; font-size: 16px;
+	padding-left: 14px;
+	transition: .2s;
+}
+
+	.mtgprice:hover,.mtgprice:focus {
+		border-left: solid #F6CECE 20px;
+		
+}
+
+.circle {
+	border-radius: 50px 50px;
+	background-color: #FFF;
+	width: 100px;
+	height: 100px;
+	transition: .2s;
+}
+
+.circle:hover {
+	background: #000;
+}
+
+.quote {
+	text-align: center;
+}

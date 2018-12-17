@@ -1,0 +1,126 @@
+@font-face {
+	font-family: 'haxr';
+	src: url('haxrcorpttf.ttf');
+}
+
+html {
+	background: url('1420089190609.jpg') #464646 no-repeat;
+	background-size: 100%;
+	font-family: 'haxr';
+}
+
+#main {
+	position: absolute;
+	width: 721; height: 328;
+	top: 0; right: 0; left: 0; bottom: 0;
+	margin: auto;
+	background: none;
+}
+
+.sidebar {
+	position: absolute;
+	left: 460;
+	background: url('img.jpg');
+	background-size: 400%;
+	background-position: -160 -130;
+	width: 142px; height: 324px;
+	border: 2px solid #000;
+}
+
+#google {
+	position: absolute;
+	left: 0; right: 0; top: 310;
+	width: 454; height: 18;
+	font-family: 'haxr', monospace;
+	font-size: 16;
+	border: 2px solid #000;
+}
+
+#youtube {
+	position: absolute;
+	right: 0; top: 310;
+	width: 261; height: 18;
+	font-family: 'haxr', monospace;
+	font-size: 16;
+	border: 2px solid #000;
+}
+
+.mainbox {
+	position: absolute; 
+	width: 450; height: 300;
+	background: white;
+	border: 2px solid #000;
+	left: 0;
+
+}
+
+.title {
+	position: absolute;
+	margin: auto;
+	left: 0; right: 0;
+	top: 60;
+	font-size: 16px;
+	text-align: center;
+}
+
+ul {
+	width:75px;
+	list-style-type:none;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:18px;
+	margin-right:18px;
+}
+
+li {
+	text-align:left;
+	padding-left:3px;
+	padding-right:3px;
+	height:16px;
+	line-height:16px;
+}
+
+.links {
+	width:auto;
+	top: 140px;
+	position:relative;
+    display: inline-block;
+}
+
+a {
+	text-decoration:none;
+	font-size:16px;
+	height:12px;
+	line-height:12px;
+	color:#000000;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.quote {
+	position: absolute;
+	top: 330; right: 0; left: 0; bottom: 0;
+	margin: auto;
+	width: 450;
+}
+
+.imageone {
+	position: absolute;
+	top: 0; bottom: 0; right: 0;
+	height: 145; width: 257;
+	background: url('1420436098161.png');
+	background-size: 100%;
+	border: 2px solid #000;
+}
+
+.imagetwo {
+	position: absolute;
+	top: 155; bottom: 0; right: 0;
+	height: 145; width: 257;
+	background: url('1420648601540.jpg');
+	background-size: 100%;
+	border: 2px solid #000;
+}
