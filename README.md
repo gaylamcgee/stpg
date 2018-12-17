@@ -1,8 +1,6 @@
 ## my startpage collection.
 #### (formally kamikal.github.io)
 
-### i've reduced the number of pages, and got rid of the shit ones (haha just kidding they all suck).
-
 ### god_dammit
 ![god_dammit](/images/god_dammit.png)
 
