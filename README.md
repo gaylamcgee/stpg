@@ -4,9 +4,6 @@
 ### god_dammit
 ![god_dammit](/images/god_dammit.png)
 
-### newww
-## don't download this one.
-
 ### some_bullshit
 ![some_bullshit](/images/some_bullshit.png)
 
