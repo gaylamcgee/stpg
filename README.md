@@ -5,7 +5,7 @@
 ![god_dammit](/images/god_dammit.png)
 
 ### newww
-![newww](/images/newww.png)
+## don't download this one.
 
 ### some_bullshit
 ![some_bullshit](/images/some_bullshit.png)
