@@ -8,6 +8,7 @@
 ![some_bullshit](/images/some_bullshit.png)
 
 ### [mood](http://stpg.gayla.pw/github/mood/)
+#### i recommend using [this custom theme](https://github.com/Guerra24/Firefox-UWP-Style/) for this startpage.
 ![mood](/images/mood.png)
 
 ### [tab](http://stpg.gayla.pw/github/tab/)
