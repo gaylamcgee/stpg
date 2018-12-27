@@ -1,0 +1,167 @@
+@font-face {
+    font-family:'haxrcorp';
+    src: url('haxrcorpttf.ttf');
+}
+
+body {
+	font-family: haxrcorp, monospace;
+	font-size:16px;
+	background-color:#F8F8F8;
+	background-image: url("img/1420360626389.jpg");
+	background-size: 100%;
+}
+
+.maincontainer {
+	width:672px;
+	height:319px;
+	position: absolute;
+	top: 0px;
+	bottom:100px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+	background-color:transparent;
+}
+
+.main {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	position: absolute;
+	top: -2px;
+
+    width: 536px;
+	height: 319px;
+    left: -2px;
+    right: 190px;
+    margin: auto;
+	background-color:#FFFFFF;
+	text-align:center;
+}
+
+.sidebar {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	position: absolute;
+	top: -2px;
+	bottom:200px;
+    width: 129px;
+	height: 319px;
+    left: 541px;
+	background-color:#FFFFFF;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.searchbar {
+	position: absolute;
+	top: 324; left: 44;
+	margin: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	background-color:white;
+	width:626; height:16px;
+}
+
+.search {
+	height: 16px; width: 625px;
+	border: 0px;
+	font-family: haxrcorp, monospace; font-size: 16px;
+}
+
+ul {
+	width:75px;
+	list-style-type:none;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:18px;
+	margin-right:18px;
+}
+
+li {
+	text-align:left;
+	padding-left:3px;
+	padding-right:3px;
+	height:16px;
+	line-height:16px;
+}
+
+.bookmarkscontainer {
+	width:auto;
+	top: 140px;
+	position:relative;
+    display: inline-block;
+}
+
+a {
+	text-decoration:none;
+	font-size:16px;
+	height:12px;
+	line-height:12px;
+	color:#000000;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.welcome {
+	line-height:18px;
+	font-family: haxrcorp, monospace;
+	font-size:22px;
+	position:absolute;
+	top:80px;
+	width:300px;
+	left:0px;
+	right:0px;
+	margin-left:auto;
+	margin-right:auto;
+	color:;
+}
+
+.clink {
+	font-size: 16px;
+	text-decoration:none;
+	line-height: 16px;
+	color:#000000;
+}
+
+.button {
+	position: absolute;
+	left: -2;
+	margin-top: 324;
+	width:16px;
+	height:16px;
+	float: left;
+	margin-right:2px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	background-color:#ffffff;
+}
+
+.button:hover {
+	background-color:#aaaaaa!important;
+}
+
+.buttontwo {
+	position: absolute;
+	left: 21;
+	margin-top: 324;
+	width:16px;
+	height:16px;
+	float: left;
+	margin-right:2px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	background-color:#ffffff;
+}
+
+.buttontwo:hover {
+	background-color:#aaaaaa!important;
+}

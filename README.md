@@ -4,9 +4,6 @@
 ### god_dammit
 ![god_dammit](/images/god_dammit.png)
 
-### newww
-![newww](/images/newww.png)
-
 ### some_bullshit
 ![some_bullshit](/images/some_bullshit.png)
 
@@ -33,3 +30,9 @@
 
 ### waytoominimal
 ![waytoominimal](/images/waytoominimal.png)
+
+### no more
+![no_more](/images/no_more.png)
+
+### lost
+![lost](/images/lost.png)

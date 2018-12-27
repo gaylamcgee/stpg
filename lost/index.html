@@ -1,0 +1,91 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" href="src/style.css">
+<title>new tab~</title>
+
+<script type="text/javascript">		
+
+function show( show1 ) {
+	document.getElementById(show1).style.display="block";
+}
+function hide( hide1 ) {
+	document.getElementById(hide1).style.display="none";
+}
+function tog( tog1 ) {
+	document.getElementById(tog1).style.backgroundColor="#777777";
+}
+function toh( toh1 ) {
+	document.getElementById(toh1).style.backgroundColor="#ffffff";
+}
+		</script>
+</head>
+
+<body><div class="maincontainer">
+
+<div class="main" id="main1" style="display: none;">
+<div class="welcome">&#9825;</div>
+<div class="bookmarkscontainer">
+					<ul>
+						<li><a href="http://4chan.org/" class="clink">4chan</a></li>
+						<li><a href="http://4chan.org/wg/catalog" class="clink">/wg/</a></li>
+						<li><a href="http://4chan.org/w/catalog" class="clink">/w/</a></li>
+						<li><a href="http://4chan.org/g/catalog/" class="clink">/g/</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://8ch.net/" class="clink">8chan</a></li>
+						<li><a href="http://8ch.net/tech/" class="clink">/tech/</a></li>
+						<li><a href="http://8ch.net/w/" class="clink">/w/</a></li>
+						<li><a href="http://8ch.net/tg/" class="clink">/tg/</a></li>
+						<li><a href="http://8ch.net/wg/" class="clink">/wg/</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://steamcommunity.com/" class="clink">steam</a></li>
+						<li><a href="http://forums.blackmesasource.com/" class="clink">bmcf</a></li>
+						<li><a href="http://4chan.org/vg/catalog/" class="clink">/vg/</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://pomf.is/" class="clink">pomf.is</a></li>
+						<li><a href="http://thepiratebay.se/" class="clink">thepiratebay</a></li>
+						<li><a href="http://youtube.com/" class="clink">youtube</a></li>
+						<li><a href="http://reddit.com/r/paydaytheheist" class="clink">/r/paydaytheheist</a></li>
+					</ul>
+				</div>
+<div class="sidebar" style="background-image: url(img/sidebar.png);"></div>
+</div>
+<div class="searchbar">
+<form method="get" action="https://www.google.com/search">
+<input name="q" size="31" autocomplete="false" autofocus="yes" class="search" type="text"></form>
+</div>
+<div class="button" id="btn1" onclick="show('main1');hide('main2');tog('btn1');toh('btn2');" style="background-color: rgb(255, 255, 255);"></div>
+<div class="buttontwo" id="btn2" onclick="show('main2');hide('main1');tog('btn2');toh('btn1');" style="background-color: rgb(119, 119, 119);"></div>
+
+<div class="main" id="main2" style="display: block;">
+<div class="sidebar" style="background-image: url(img/sidebar2.png);"></div>
+<div class="welcome">&#9825;</div>
+<div class="bookmarkscontainer">
+					<ul>
+						<li><a href="http://4chan.org/" class="clink">web resources</a></li>
+						<li><a href="http://reddit.com/r/wallpapers" class="clink">/r/wallpapers</a></li>
+						<li><a href="http://4chan.org/wg/catalog?s=stpg" class="clink">/stpg/</a></li>
+						<li><a href="http://4chan.org/g/catalog?s=web" class="clink">/g/ - web dev</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://7chan.org/" class="clink">7chan</a></li>
+						<li><a href="http://7chan.org/eh/" class="clink">/eh/</a></li>
+						<li><a href="http://7chan.org/lit/" class="clink">/lit/</a></li>
+						<li><a href="http://7chan.org/tg/" class="clink">/tg/</a></li>
+						<li><a href="http://7chan.org/wp/" class="clink">/wp/</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://reddit.com/" class="clink">reddit</a></li>
+						<li><a href="http://reddit.com/r/askreddit" class="clink">/r/askreddit</a></li>
+						<li><a href="http://reddit.com/r/web_design" class="clink">/r/web_design</a></li>
+						<li><a href="http://reddit.com/r/customization" class="clink">/r/customization</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://facebook.com/" class="clink">facebook</a></li>
+						<li><a href="http://nyaa.se/" class="clink">nyaa.se</a></li>
+						<li><a href="http://www.rossmoyneshs.wa.edu.au/" class="clink">education</a></li>
+					</ul>
+				</div>
+</div></div></body></html>
