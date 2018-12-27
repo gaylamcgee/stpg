@@ -7,6 +7,9 @@
 ### some_bullshit
 ![some_bullshit](/images/some_bullshit.png)
 
+### mood
+![mood](/images/mood.png)
+
 ### tab
 ![tab](/images/tab.png)
 
