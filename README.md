@@ -9,6 +9,7 @@
 
 ### [mood](http://stpg.gayla.pw/github/mood/)
 #### i recommend using [this custom theme](https://github.com/Guerra24/Firefox-UWP-Style/) for this startpage.
+##### set _uwp-accent-color_ to #992142 in userContent.css and userChrome.css for best effect.
 ![mood](/images/mood.png)
 
 ### [tab](http://stpg.gayla.pw/github/tab/)
