@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'monte';
+	src: url('montecarlo.ttf');
+}
+
+html {
+	font-family: 'monte';
+}
+
+body {
+	background-color: rgb(16,16,16);
+}
+
+#main {
+	width: 600px;
+	height: 220px;
+
+	position: absolute;
+	margin: auto;
+	top: 200px;
+	left: 0px; right: 0px;
+
+	border: 4px rgb(153,33,66) solid;
+
+	background-image: url('images/7531815044384064311.gif');
+	background-size: 100%;
+}
+
+.goodbye {
+	color: #fff;
+	text-align: left;
+	margin-top: 94px;
+	margin-left: 40px;
+}
+
+.searchbar {
+	position: absolute;
+	margin: auto;
+	top: 434px;
+	left: 0px; right: 0px;
+
+	width: 602px;
+	border: 2px rgb(153,33,66) solid;
+
+	font-family: 'monte';
+	font-size: 16px;
+	text-align: center;
+}
+
+#linkscon {
+	width: 604px;
+	height: auto;
+
+	position: absolute;
+	margin: auto;
+	left: 0; right: 0;
+	top: 464px;
+
+	text-align: center;
+}
+
+#linkscon > p {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 4px;
+
+	color: #fff;
+}
+
+li {
+	display: inline-block;
+	position: relative;
+}
+
+ul {
+	color: rgb(153,33,66);
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	margin-left: -40px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(13,129,122);
+	transition: 0.3s ease;
+}
+
+a:hover {
+	color: rgb(19,75,68);
+}
+
+.separator {
+	border-bottom: 2px solid rgb(153,33,66);
+	width: 604px;
+	margin-bottom: 12px;
+}

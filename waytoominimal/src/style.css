@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'main';
+	src: url('haxrcorpttf.ttf');
+}
+
+* {
+	outline: none;
+}
+
+html {
+	background: url('bg.png') #262222 no-repeat 100% 100% fixed;
+	font-family: 'main';
+	font-size: 18px;
+}
+
+#parent {
+	width: 298;
+	height: 196;
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	right: 332px; left: 0;
+}
+
+#one {
+	position: relative;
+	margin: auto;
+}
+
+#two {
+	position: relative;
+	margin: auto;
+}
+
+#three {
+	position: relative;
+	margin: auto;
+}
+
+#four {
+	position: relative;
+	margin: auto;
+}
+
+.title {
+	position: absolute;
+	font-size: 16px;
+	margin-top: 0;
+	height: 20;
+	width: 116px;
+	z-index: 1;
+	text-align: left;
+	padding-left: 12px;
+	color: #fff;
+	transition: 0.2s ease;
+	border: 1px solid #fff;
+}
+
+.name {
+	margin-top: 0;
+}
+
+.link {
+	position: absolute;
+	margin: auto;
+
+	width: 128;
+	height: 20;
+
+	background: #000;
+	opacity: 0.5;
+
+	transition: 0.5s ease;
+	border: 1px solid #fff;
+}
+
+.link a {
+	display: none;
+	padding-left: 18px;
+	padding-top: 0;
+	color: #fff;
+
+	font-size: 16px;
+	text-decoration: none;
+	width: auto;
+	text-align: left;
+	transition: 0.2s ease;
+}
+
+.link:hover {
+	height: 100px;
+	opacity: 0.8;
+}
+
+.link:hover .title {
+	color: red;
+	opacity: 0.8;
+}
+
+.link:hover a {
+	display: block;
+}
+
+.dropright {
+	position: absolute;
+	right: 0px; left: 0px; bottom: 0px; top: 24px;
+	text-align: center;
+	height: ;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+
+.dropright a:hover {
+	background: #292828;
+}
